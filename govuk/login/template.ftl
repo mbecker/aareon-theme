@@ -101,20 +101,20 @@
     </div>
     <div id="global-cookie-message">
 
-        <p>GOV.UK uses cookies to make the site simpler. <a href=\"https://www.gov.uk/help/cookies\">Find out more about cookies</a></p>
+        <p>Aareon uses cookies to make the site simpler. <a href=\"https://www.aareon.com/sixcms/detail.php/2377\">Find out more about cookies</a></p>
 
     </div>
     <header role="banner" id="global-header" class="${properties.kcHeaderClass!} with-proposition">
       <div class="header-wrapper">
         <div class="header-global">
           <div class="header-logo">
-            <a href="https://www.gov.uk" title="Go to the GOV.UK homepage" id="logo" class="content">
-              <img src="${url.resourcesPath}/vendor/govuk_template/images/gov.uk_logotype_crown_invert_trans.png?0.22.1" width="36" height="32" alt=""> GOV.UK
+            <a href="https://iam.aadigital.ssn.aareon.com" title="Aareon IAM" id="logo" class="content">
+              <img src="${url.resourcesPath}/vendor/govuk_template/images/Aareon_logo.svg.png?0.22.1" width="210" height="56" alt="">Aareon
             </a>
           </div>
         </div>
         <#if realm.displayNameHtml?? || realm.displayName??>
-          <div class="header-proposition">
+          <div class="header-proposition" style="display: none;">
             <div class="content">
               <#if realm.displayNameHtml?? && realm.displayNameHtml != realm.displayName>
                 ${realm.displayNameHtml?no_esc}
@@ -226,15 +226,15 @@
           <div class="footer-meta-inner">
 
             <div class="open-government-licence">
-              <p class="logo"><a href="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/" rel="license">Open Government Licence</a></p>
+              
 
-                <p>All content is available under the <a href="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/" rel="license">Open Government Licence v3.0</a>, except where otherwise stated</p>
+                <p>Aareon Platform as a Service</p>
 
             </div>
           </div>
 
           <div class="copyright">
-            <a href="http://www.nationalarchives.gov.uk/information-management/re-using-public-sector-information/copyright-and-re-use/crown-copyright/">&copy; Crown copyright</a>
+            <a href="https://www.aareon.com/sixcms/detail.php/2377">&copy; Aareon AG</a>
           </div>
         </div>
       </div>
